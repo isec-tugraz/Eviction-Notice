@@ -1,0 +1,6 @@
+services:
+  ubuntu-shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ndss26-fallae-2-watcher
