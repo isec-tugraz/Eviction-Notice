@@ -2,7 +2,7 @@
 This repository contains the artifacts for the paper "Eviction Notice: Reviving
 and Advancing Page Cache Attacks", accepted at [NDSS
 '26](https://www.ndss-symposium.org/ndss2026/). The paper can be found here:
-https://snee.la/pubs/eviction-notice.pdf.
+https://snee.la/pdf/pubs/eviction-notice.pdf.
 
 The artifact is at: https://zenodo.org/records/17915256
 
