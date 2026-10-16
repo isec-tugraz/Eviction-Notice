@@ -86,7 +86,7 @@ read-bypass-readahead: reload/read-bypass-readahead.c $(LOC_INCLUDES) $(LOC_UTIL
 		-I$(GLOBAL_INCLUDE_DIR)                                                \
 		-o $(BUILD_DIR)/read-bypass-readahead
 
-read-bypass-backward-reading: reload/read-bypass-backward-reading.c $(LOC_INCLUDES) $ $(LOC_GLOBAL) $(LOC_GLOBAL)(LOC_UTILS)
+read-bypass-backward-reading: reload/read-bypass-backward-reading.c $(LOC_INCLUDES) $(LOC_GLOBAL) $(LOC_GLOBAL) $(LOC_UTILS)
 	$(builddir)
 	$(CC) reload/read-bypass-backward-reading.c                                \
 		$(LOC_UTILS)                                                           \
